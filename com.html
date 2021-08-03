@@ -118,17 +118,87 @@
     
 }
 
+.imager{
+    border-radius:0px 10px  10px 0px;
+}
+.imager img{
+    border-radius:0px 10px  10px 0px;
+}
 
-@media (max-width:375px) {
+@media (max-width:500px) {
     .card{
         max-width: 100%;
+        
     }
     .master{
-        max-width: 100%;
+        max-width: 80%;
         flex-direction: column-reverse;
+        overflow: hidden;
     }
-    
+    .imager{
+        border-radius: 10px 10px 0px 0px;
+        max-width: 100%;
+        height: 200px;
+
+    }
+    .imager img{
+        border-radius: 10px 10px 0px 0px;
+        max-width: 100%;
+        height: 200px;
+    }
+    .image{
+       max-width: 100%;
+       
+    }
+    .content h1{
+        font-size: 1.4em;
+        text-align: center;
+        max-width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;
+       }
+    .thala {
+        font-size: 0.8em;
+        max-width: 100%;
+        
+        text-align: center;
+        display: block;
+        padding: 0;
+        margin: 10px;
+        line-break:unset;
+    }
+    .ls li{
+        padding: 5px;
+        margin: 0;
+        display: block;
+        position: relative;
+        bottom:  17px;
+        
+    }
+    .ls h1{
+         font-size: 1.2em;
+         padding-bottom:5px ;
+         margin: 0;
+         max-width: 100%;
+         position: relative;
+         left: 27px;
+    }
+    .ls p{
+        font-size: 0.6em;
+        text-align: center;
+        max-width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        right: 5px;
+       
+    }
+   
 }
+    
+
 
 
 
@@ -163,9 +233,9 @@
         
         <div class = "right-c">
           
-            <div class="imager" style="background-color:  hsl(277, 64%, 61%);border-radius:0px 10px  10px 0px;">
+            <div class="imager" style="background-color:  hsl(277, 64%, 61%);">
                  <img src="D:/stats-preview-card-component-main/stats-preview-card-component-main/images/image-header-desktop.jpg" width = "550"
-                 height = "369px" style="mix-blend-mode:multiply ;border-radius:0px 10px  10px 0px">
+                 height = "369px" style="mix-blend-mode:multiply ;">
                  <br style="clear: left;" />
             </body>
            
